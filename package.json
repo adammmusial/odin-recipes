@@ -1,12 +1,15 @@
 {
-  "name": "git_test",
+  "name": "odin-recipes",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:adammmusial/git_test.git",
+  "repository": "git@github.com:adammmusial/odin-recipes.git",
   "author": "adammmusial <musialadam83@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
     "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
